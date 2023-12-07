@@ -32,6 +32,7 @@ const JoinRoom = () => {
                 className="w-full p-4 md:p-2 my-2 md:my-4 inline-block border border-gray-300"
                 value={room}
                 onChange={(e) => setRoom(e.target.value)}
+                style={{color:"black"}}
               />
             </div>
             <button

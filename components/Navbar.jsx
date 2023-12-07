@@ -24,7 +24,7 @@ const Navbar = () => {
         className="fixed top-0 left-0 w-full px-20 py-8 bg-transparent flex justify-between items-center z-100"
       >
         <div className="text-white text-4xl font-semibold no-underline cursor-default">
-          ConnectSync
+          ConnectHub
         </div>
         <div className="flex">
           <div

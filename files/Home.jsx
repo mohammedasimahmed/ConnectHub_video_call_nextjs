@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { Suspense, lazy } from "react";
+const ConnectHub = lazy(() => import("@/components/ConnectHub"));
 
 const Home = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <>
+      <Suspense fallback={<div className="text-white">Loading...</div>}>
+        <ConnectHub />
+      </Suspense>
+    </>
+  );
+};
 
-export default Home
+export default Home;

@@ -3,9 +3,7 @@
 @tailwind utilities;
 
 
-video {
-  transform: rotateY(180deg);
-}
+
 
 /* :root {
   --foreground-rgb: 0, 0, 0;
@@ -31,6 +29,12 @@ body {
     rgb(var(--background-start-rgb));
 } */
 
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -38,12 +42,19 @@ body {
   scroll-behavior: smooth;
   color: white;
 }
-
+html,
 body {
+  margin: 0;
+  height: 100%;
   overflow: auto;
+  font-family: "Roboto" !important;
+  color: white;
   background-color: black;
 }
-
 .nav_blur {
   backdrop-filter: blur(10px);
+}
+
+video {
+  transform: rotateY(180deg);
 }

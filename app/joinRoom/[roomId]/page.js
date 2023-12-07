@@ -1,9 +1,10 @@
+import Room from '@/files/Room'
 import React from 'react'
 
 const page = () => {
   return (
     <div>
-      hello
+      <Room />
     </div>
   )
 }
